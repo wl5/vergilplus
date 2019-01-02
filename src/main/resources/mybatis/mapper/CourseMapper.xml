@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vplus.mapper.CourseMapper">
+	<select id="selectCourseByNumber" resultType="Course">
+		select * from
+		course where courseNumber = #{courseNumber}
+	</select>
+
+	<select id="selectCourseByNumberAndSection" resultType="Course">
+		select *
+		from course where courseNumber = #{courseNumber} and section =
+		#{section}
+	</select>
+
+	<select id="selectAllInstructors" resultType="String">
+		select instructor
+		from course
+	</select>
+
+	<select id="isValidCourse" resultType="boolean">
+		select exists(select 1 from course where courseNumber = #{courseNumber})
+	</select>
+
+	<select id="isValidInstructor" resultType="boolean">
+		select exists(select 1 from course where instructor = #{instructor})
+	</select>
+
+
+</mapper>

@@ -1,0 +1,11 @@
+com\vplus\business\AwsUtil.class
+com\vplus\Application.class
+com\vplus\mapper\ReviewMapper.class
+com\vplus\business\IAwsUtil.class
+com\vplus\domain\Course.class
+com\vplus\domain\Review.class
+com\vplus\business\IUserConsole.class
+com\vplus\mapper\CourseMapper.class
+com\vplus\business\Recommender.class
+com\vplus\business\UserConsole.class
+com\vplus\business\IRecommender.class
