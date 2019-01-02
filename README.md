@@ -10,4 +10,4 @@ This repository is an improved version of my [team project](https://github.com/p
 Java, Maven, Spring Boot, MyBatis, MySQL, Amazon Lex, Google Cloud NLP
 
 ## Interesting Stats: <br />
-![stats](stats.png)
+![stats](https://github.com/pow25/vergilplus/blob/master/stats.png)
